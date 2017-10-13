@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Henrick",
+    "lastName": "Larsson",
+    "position": "Project Manager",
+    "phone": 380985621879
+  },
+  {
+    "name": "Dino",
+    "lastName": "Zoff",
+    "position": "Chief Project Manager",
+    "phone": 380995632147
+  },
+  {
+    "name": "Olha",
+    "lastName": "Vasilieva",
+    "position": "Regional PM",
+    "phone": 380953641258
+  },
+  {
+    "name": "Natasha",
+    "lastName": "Subotina",
+    "position": "Regional PM",
+    "phone": 380952159753
+  }
+]

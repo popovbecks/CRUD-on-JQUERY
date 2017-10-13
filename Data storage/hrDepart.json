@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Tatiana",
+    "lastName": "Bereka",
+    "position": "Chief HR Manager",
+    "phone": 3809523584777
+  },
+  {
+    "name": "Oksana",
+    "lastName": "Kostenko",
+    "position": "HR Manager",
+    "phone": 380994863978
+  },
+  {
+    "name": "Julia",
+    "lastName": "Grishina",
+    "position": "Recruter",
+    "phone": 380974517367
+  }
+]

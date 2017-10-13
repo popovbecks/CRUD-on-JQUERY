@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Alex",
+    "lastName": "Popov",
+    "position": "Front-End Developer",
+    "phone": 380995751369
+  },
+  {
+    "name": "Denis",
+    "lastName": "Koshel",
+    "position": "Front-End Developer",
+    "phone": 380938246917
+  },
+  {
+    "name": "Vladimir",
+    "lastName": "Lutsenko",
+    "position": "Back-End Developer",
+    "phone": 380963963145
+  },
+  {
+    "name": "Alina",
+    "lastName": "Kurilo",
+    "position": "Junior Back-End Developer",
+    "phone": 380508723458
+  },
+  {
+    "name": "Anton",
+    "lastName": "Konoval",
+    "position": "Junior Front-End Developer",
+    "phone": 380508951243
+  },
+  {
+    "name": "Carlos",
+    "lastName": "Castaneda",
+    "position": "QA Automation",
+    "phone": 380954835187
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Marko",
+    "lastName": "Materazzi",
+    "position": "Marketer",
+    "phone": 560789536987
+  },
+  {
+    "name": "Lassana",
+    "lastName": "Diara",
+    "position": "Marketer",
+    "phone": 56047852665
+  },
+  {
+    "name": "Jessica",
+    "lastName": "Alba",
+    "position": "Chief Marketer",
+    "phone": 380935836453
+  },
+  {
+    "name": "Lisa",
+    "lastName": "Lobanova",
+    "position": "Junior Marketer",
+    "phone": 380952145834
+  }
+]

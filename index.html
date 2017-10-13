@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <style type="text/css">
+        h1 {
+            color: red;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .head {
+            text-align: center;
+            color: green;
+        }
+
+        .list {
+            width: 70px;
+        }
+
+        .add_inp {
+            background-color: lemonchiffon;
+        }
+
+        .add_inp:focus {
+            background-color: #ffadfa;
+        }
+
+        .add_inp {
+            -moz-appearance: textfield;
+        }
+
+        .add_inp::-webkit-inner-spin-button {
+            display: none;
+        }
+
+        body {
+            background-color: lightgreen;
+        }
+
+        .table-sm {
+            background-color: linen;
+        }
+
+    </style>
+
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <h1>CRUD Form</h1>
+            <h2 class="head">Departments and employees</h2>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+</div>
+<div class="container">
+    <!--Development table-->
+    <table class="table table-inverse">
+        <thead>
+        <tr class="bg-danger">
+            <th>Development Department</th>
+            <th class="list">
+                <button type="button" class="btn btn-warning" id="dev_dep_btn">List Employees</button>
+            </th>
+        </tr>
+
+        </thead>
+    </table>
+    <table class="table table-sm" id="dev_table" style="display: none">
+        <thead>
+        <tr>
+            <th>First name</th>
+            <th>Last Name</th>
+            <th>Position</th>
+            <th>Phone</th>
+        </tr>
+        </thead>
+
+    </table>
+    <!--Marketing table-->
+    <table class="table table-inverse">
+        <thead>
+        <tr class="bg-danger">
+            <th> Marketing Department</th>
+            <th class="list">
+                <button type="button" class="btn btn-warning" id="mark_dep_btn">List Employees</button>
+            </th>
+        </tr>
+
+        </thead>
+    </table>
+    <table class="table table-sm" id="marketing_table" style="display: none">
+        <thead>
+        <tr>
+            <th>First name</th>
+            <th>Last Name</th>
+            <th>Position</th>
+            <th>Phone</th>
+        </tr>
+        </thead>
+
+    </table>
+    <!--Project table-->
+    <table class="table table-inverse">
+        <thead>
+        <tr class="bg-danger">
+            <th> Project Department</th>
+            <th class="list">
+                <button type="button" class="btn btn-warning" id="proj_dep_btn">List Employees</button>
+            </th>
+        </tr>
+
+        </thead>
+    </table>
+    <table class="table table-sm" id="project_table" style="display: none">
+        <thead>
+        <tr>
+            <th>First name</th>
+            <th>Last Name</th>
+            <th>Position</th>
+            <th>Phone</th>
+        </tr>
+        </thead>
+
+    </table>
+    <!--HR table-->
+    <table class="table table-inverse">
+        <thead>
+        <tr class="bg-danger">
+            <th> Human Resource Department</th>
+            <th class="list">
+                <button type="button" class="btn btn-warning" id="hr_dep_btn">List Employees</button>
+            </th>
+        </tr>
+
+        </thead>
+    </table>
+    <table class="table table-sm" id="hr_table" style="display: none">
+        <thead>
+        <tr>
+            <th>First name</th>
+            <th>Last Name</th>
+            <th>Position</th>
+            <th>Phone</th>
+        </tr>
+        </thead>
+
+    </table>
+</div>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+        integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+        integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script>
+</body>
+</html>
